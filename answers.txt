@@ -1,0 +1,37 @@
+Answers – Machine Learning Fundamentals Challenge
+
+1. What is the slope?
+
+The slope is the coefficient value of each feature in the Linear Regression model. It shows how much the predicted marks change when a feature increases by one unit.
+
+2. What is the intercept?
+
+The intercept is the starting value of the regression equation when all feature values are zero.
+
+3. What do they mean?
+
+The slope shows the impact of Study Hours, Attendance, and Assignments on Marks. A positive slope means marks increase when that feature increases. The intercept is the base value used by the model for prediction.
+
+ Actual vs Predicted Comparison
+
+Which student had the highest prediction error?
+
+The student with the largest value in the Difference column had the highest prediction error.
+
+ Model Evaluation
+
+1. What is MAE?
+
+MAE (Mean Absolute Error) is the average difference between actual marks and predicted marks. A lower MAE means better predictions.
+
+2. What is R² Score?
+
+R² Score shows how well the model explains the relationship between features and marks. A value closer to 1 indicates better performance.
+
+3. Is your model performing well?
+
+Yes, the model is performing well because the dataset has a strong relationship between the features and marks. A low MAE and a high R² Score indicate good prediction accuracy.
+
+Conclusion
+
+The Linear Regression model was successfully trained using Study Hours, Attendance, and Assignments as features. The model was able to predict student marks with good accuracy and performance.
